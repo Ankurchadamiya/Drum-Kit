@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ef5776;
+    font-family: Arial, sans-serif;
+  }
+  
+  .drum-kit {
+    display: flex;
+  }
+  
+  .drum-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .sound {
+    font-size: 0.8rem;
+  }
+  
+  kbd {
+    padding: 5px 10px;
+    background-color: #444;
+    border-radius: 3px;
+  }
+  
+  .drum-button:active {
+    background-color: #555;
+  }
+  .heading{
+    margin-bottom: 20%;
+    margin-top: -27%;
+   text-align: center;
+   font-size: xx-large;
+   color: aliceblue;
+   font-family: 'Permanent Marker', cursive;
+  }
